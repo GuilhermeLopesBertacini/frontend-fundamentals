@@ -61,10 +61,7 @@ Sinta-se à vontade para contribuir com melhorias, novas aulas ou correções!
 Este projeto está sob a licença MIT. Sinta-se livre para usá-lo e modificá-lo!  
 
 🚀 **Bons estudos e feliz codificação!**  
-```
-Aqui está a versão em inglês do **README.md** atualizado:
 
-```md
 # 🌐 Frontend Fundamentals  
 
 📌 **Frontend Fundamentals** is a repository created to teach the essential concepts of web development. Here, you will find examples, exercises, and practical projects using **HTML, CSS, and JavaScript**.  
