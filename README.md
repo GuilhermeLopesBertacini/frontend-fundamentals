@@ -62,6 +62,8 @@ Este projeto está sob a licença MIT. Sinta-se livre para usá-lo e modificá-l
 
 🚀 **Bons estudos e feliz codificação!**  
 
+---
+
 # 🌐 Frontend Fundamentals  
 
 📌 **Frontend Fundamentals** is a repository created to teach the essential concepts of web development. Here, you will find examples, exercises, and practical projects using **HTML, CSS, and JavaScript**.  
