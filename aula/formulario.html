@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+    <form action="">
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome_usuario" id="nome">
+<br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email_usuario" id="email">
+<br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha_usuario" id="senha">
+<br><br>
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade_usuario" id="idade">
+<br><br>
+        <label for="dn">Data de Nascimento:</label>
+        <input type="date" name="nascimento_usuario" id="dn">
+<br><br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone_usuario" id="telefone">
+<br><br>
+        <label for="site">Website:</label>
+        <input type="url" name="website_usuario" id="site">
+<br><br>
+        <label for="sexo">Sexo:</label>
+        <select name="sexo_usuario" id="sexo">
+            <option value="" disabled selected style="color:rgba(0, 0, 0, 0.204)">Gênero</option>
+            <option value="masc">
+                Masculino
+            </option>
+
+            <option value="fem">
+                Feminino
+            </option>
+
+            <option value="outros">
+                Outros
+            </option>
+        </select>
+<br><br>
+        <input type="radio" id="vermelho" name="cor" value="vermelho">
+        <label for="vermelho">Vermelho</label><br>
+      
+        <input type="radio" id="azul" name="cor" value="azul">
+        <label for="azul">Azul</label><br>
+      
+        <input type="radio" id="verde" name="cor" value="verde">
+        <label for="verde">Verde</label>
+
+    </form>    
+</body>
+</html>

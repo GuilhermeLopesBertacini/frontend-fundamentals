@@ -1,0 +1,10 @@
+.rosa {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50px;
+}
+
+p {
+    border: 1px solid black;
+}

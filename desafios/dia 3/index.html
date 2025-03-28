@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato</title>
+  </head>
+  <body>
+    <p>
+      Supondo que você faça parte de uma empresa de vendas, faça um sistema de
+      contato ao suporte.
+    </p>
+    <h1>Contato</h1>
+    <form action="enviar.php" method="post">
+      <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div>
+        <label for="motivo">Motivo do Contato:</label>
+        <input type="radio" id="suporte" name="motivo" value="suporte" />
+        <label for="suporte">Suporte</label>
+        <input type="radio" id="vendas" name="motivo" value="vendas" />
+        <label for="vendas">Vendas</label>
+      </div>
+      <div>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+      </div>
+      <div>
+        <input type="checkbox" id="concordo" name="concordo" />
+        <label for="concordo">Concordo com os termos</label>
+      </div>
+      <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar Campos</button>
+      </div>
+    </form>
+  </body>
+</html>
