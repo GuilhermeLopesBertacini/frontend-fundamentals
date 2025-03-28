@@ -129,4 +129,3 @@ Feel free to contribute with improvements, new lessons, or fixes!
 This project is licensed under the MIT License. Feel free to use and modify it!  
 
 🚀 **Happy coding and good luck with your learning!**  
-```
